@@ -1,0 +1,13 @@
+<section id='beers-section'>
+  <div id='beers-container'>
+    {{#each beers}}
+    <div class='beer-container'>
+      <div class='beer-image-container'>
+        <img class='one-beer-image' src={{image_url}} alt="beer-image">
+      </div>
+      <h2>{{name}}</h2>
+      <p>{{description}}</p>
+    </div>
+    {{/each}}
+  </div>
+</section>
